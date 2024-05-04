@@ -175,7 +175,7 @@ using the example above, the search engine should interpret the langRegionRelati
 
 | URL returned as relevant document | Language of a User | Region of a User | URL to Display in SERP|
 | --- | ------------------ | ---------------- | ------------------ |
-| https://example.com/en-GB/content.html returned as rel| English | United Kingdom | https://example.com/en-GB/content.html, it's the right combination |
+| https://example.com/en-GB/content.html | English | United Kingdom | https://example.com/en-GB/content.html, it's the right combination |
 | https://example.com/en-US/content.html | English | United Kingdom | https://example.com/en-GB/content.html, wrong region, show the UK |
 | https://example.com/content.html | English | Australia | https://example.com/content.html, the URL doesn't match the pattern expected for {lang}-{region} so is unaffected by the `langRegionRelationship` rules |
 | https://example.com/en-GB/content.html | Portuguese | Brazil | https://example.com.br/pt/content.html |
