@@ -292,4 +292,4 @@ _Let me know if you have any other proposals, and I'll add them here!_
 
 
 ## Feedback? Ideas? Improvements?
-Open an issue, or a pull request! I'd love to hear your thoughts on this proposal, and how it could be improved, or if you have any other ideas for how to improve the implementation of alternates tags on multilingual websites.
+[Open an issue](https://github.com/dwsmart/langRegionRelationshipJSON/issues), or a pull request! I'd love to hear your thoughts on this proposal, and how it could be improved, or if you have any other ideas for how to improve the implementation of alternates tags on multilingual websites.
