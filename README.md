@@ -28,7 +28,7 @@ Although these methods are widely used, they have some limitations. For example,
 ### The langRegionRelationship alternative
 The langRegionRelationship is a JSON object that contains the language-region relationships for each URL. Here is a proposed example of a langRegionRelationship object:
 
-_(Comments are not supported in JSON, so if you wanted to add explainers to the code, you could add a "comment{x}" key:value attribute, as in this example)_
+_(Comments are not supported in JSON, so if you wanted to add explainers to the code, you could add a "comment{x}" key:value pair, as in this example)_
 ```html
 <script type="langRegionRelationship">
 {
