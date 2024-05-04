@@ -286,7 +286,7 @@ One of the issues with hreflang is that to date, it's only been supported by Goo
 
 
 ## Some other proposals
-- A robots.txt based on from Aleyda Solis' [post on linkedin](https://www.linkedin.com/posts/aleyda_so-gary-illyes-asked-for-alternatives-to-activity-7192287485190664192-wCU-)
+- A robots.txt based on from Aleyda Solís' [post on linkedin](https://www.linkedin.com/posts/aleyda_so-gary-illyes-asked-for-alternatives-to-activity-7192287485190664192-wCU-)
 
 _Let me know if you have any other proposals, and I'll add them here!_
 
