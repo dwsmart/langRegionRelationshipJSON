@@ -1,0 +1,274 @@
+{
+  "langRegion": [
+    {
+      "scope": {
+        "include": "*"
+      },
+      "xHost": "https://www.adidas.com",
+      "langRegionTarget": {
+        "patternURL": "/*",
+        "alternates": [
+          {
+            "regionTarget": "us,ke,gh,lk,ng,tx,iq",
+            "langs": [{ "lang": "en" }]
+          },
+          {
+            "regionTarget": "kw,om,bh,qa",
+            "patternURL": "/{region}/{lang}*",
+            "langs": [{ "lang": "en,ar" }]
+          },
+          {
+            "regionTarget": "kw,om,bh,qa",
+            "patternURL": "/{region}/{lang}*",
+            "langs": [{ "lang": "en,ar" }]
+          },
+          {
+            "regionTarget": "dz,tn,sn,ci",
+            "patternURL": "/{region}/{lang}*",
+            "langs": [{ "lang": "fr" }]
+          },
+          {
+            "regionTarget": "ao",
+            "patternURL": "/{region}/{lang}*",
+            "langs": [{ "lang": "pt" }]
+          },
+          {
+            "regionTarget": "ec",
+            "patternURL": "/{region}/{lang}*",
+            "langs": [{ "lang": "es" }]
+          },
+          {
+            "regionTarget": "cr",
+            "patternURL": "/{region}/{lang}*",
+            "langs": [{ "lang": "es" }]
+          },
+          {
+            "regionTarget": "ar",
+            "host": "https://www.adidas.com.ar",
+            "langs": [{ "lang": "es" }]
+          },
+          {
+            "regionTarget": "at",
+            "host": "https://www.adidas.at",
+            "langs": [{ "lang": "de" }]
+          },
+          {
+            "regionTarget": "au",
+            "host": "https://www.adidas.com.au",
+            "langs": [{ "lang": "en" }]
+          },
+          {
+            "regionTarget": "be",
+            "host": "https://www.adidas.be",
+            "patternURL": "/{lang}*",
+            "langs": [{ "lang": "en,fr,nl" }]
+          },
+          {
+            "regionTarget": "br",
+            "host": "https://www.adidas.com.br",
+            "langs": [{ "lang": "pt" }]
+          },
+          {
+            "regionTarget": "ca",
+            "host": "https://www.adidas.ca",
+            "patternURL": "/{lang}*",
+            "langs": [{ "lang": "en,fr" }]
+          },
+          {
+            "regionTarget": "ch",
+            "host": "https://www.adidas.ch",
+            "patternURL": "/{lang}*",
+            "langs": [{ "lang": "de,en,fr,it" }]
+          },
+          {
+            "regionTarget": "cl",
+            "host": "https://www.adidas.cl",
+            "langs": [{ "lang": "es" }]
+          },
+          {
+            "regionTarget": "co",
+            "host": "https://www.adidas.co",
+            "langs": [{ "lang": "es" }]
+          },
+          {
+            "regionTarget": "cz",
+            "host": "https://www.adidas.cz",
+            "langs": [{ "lang": "cs" }]
+          },
+          {
+            "regionTarget": "de",
+            "host": "https://www.adidas.de",
+            "langs": [
+              {
+                "lang": "de"
+              },
+              {
+                "patternURL": "/{lang}*",
+                "lang": "en"
+              }
+              ]
+          },
+          {
+            "regionTarget": "dk",
+            "host": "https://www.adidas.dk",
+            "langs": [{ "lang": "da" }]
+          },
+          {
+            "regionTarget": "es",
+            "host": "https://www.adidas.es",
+            "langs": [{ "lang": "es" }]
+          },
+          {
+            "regionTarget": "fi",
+            "host": "https://www.adidas.fi",
+            "langs": [{ "lang": "en" }]
+          },
+          {
+            "regionTarget": "fr",
+            "host": "https://www.adidas.fr",
+            "langs": [{ "lang": "fr" }]
+          },
+          {
+            "regionTarget": "gb",
+            "host": "https://www.adidas.co.uk",
+            "langs": [{ "lang": "en" }]
+          },
+          {
+            "regionTarget": "gr",
+            "host": "https://www.adidas.gr",
+            "langs": [{ "lang": "el" }]
+          },
+          {
+            "regionTarget": "ie",
+            "host": "https://www.adidas.ie",
+            "langs": [{ "lang": "en" }]
+          },
+          {
+            "regionTarget": "in",
+            "host": "https://www.adidas.co.in",
+            "langs": [{ "lang": "en" }]
+          },
+          {
+            "regionTarget": "it",
+            "host": "https://www.adidas.it",
+            "langs": [{ "lang": "it" }]
+          },
+          {
+            "regionTarget": "kr",
+            "host": "https://www.adidas.co.kr",
+            "langs": [{ "lang": "ko" }]
+          },
+          {
+            "regionTarget": "mx",
+            "host": "https://www.adidas.mx",
+            "langs": [{ "lang": "es" }]
+          },
+          {
+            "regionTarget": "my",
+            "host": "https://www.adidas.com.my",
+            "patternURL": "/{lang}*",
+            "langs": [{ "lang": "en" }]
+          },
+          {
+            "regionTarget": "nl",
+            "host": "https://www.adidas.nl",
+            "langs": [{ "lang": "nl" }]
+          },
+          {
+            "regionTarget": "no",
+            "host": "https://www.adidas.no",
+            "langs": [{ "lang": "no" }]
+          },
+          {
+            "regionTarget": "nz",
+            "host": "https://www.adidas.co.nz",
+            "langs": [{ "lang": "en" }]
+          },
+          {
+            "regionTarget": "pe",
+            "host": "https://www.adidas.pe",
+            "langs": [{ "lang": "es" }]
+          },
+          {
+            "regionTarget": "ph",
+            "host": "https://www.adidas.com.ph",
+            "langs": [{ "lang": "en" }]
+          },
+          {
+            "regionTarget": "pl",
+            "host": "https://www.adidas.pl",
+            "langs": [{ "lang": "pl" }]
+          },
+          {
+            "regionTarget": "pt",
+            "host": "https://www.adidas.pt",
+            "langs": [{ "lang": "pt" }]
+          },
+          {
+            "regionTarget": "se",
+            "host": "https://www.adidas.se",
+            "langs": [{ "lang": "sv" }]
+          },
+          {
+            "regionTarget": "sg",
+            "host": "https://www.adidas.com.sg",
+            "langs": [{ "lang": "en" }]
+          },
+          {
+            "regionTarget": "th",
+            "host": "https://www.adidas.co.th",
+            "patternURL": "/{lang}*",
+            "langs": [{ "lang": "en,th" }]
+          },
+          {
+            "regionTarget": "tr",
+            "host": "https://www.adidas.com.tr",
+            "patternURL": "/{lang}*",
+            "langs": [{ "lang": "en,tr" }]
+          },
+          {
+            "regionTarget": "vn",
+            "host": "https://www.adidas.com.vn",
+            "patternURL": "/{lang}*",
+            "langs": [{ "lang": "en, vi" }]
+          },
+          {
+            "regionTarget": "ae",
+            "host": "https://www.adidas.ae",
+            "patternURL": "/{lang}*",
+            "langs": [{ "lang": "en" }]
+          },
+          {
+            "regionTarget": "za",
+            "host": "https://www.adidas.co.za",
+            "langs": [{ "lang": "en" }]
+          },
+          {
+            "regionTarget": "il",
+            "host": "https://www.adidas.co.il",
+            "patternURL": "/{lang}*",
+            "langs": [{ "lang": "en,he" }]
+          },
+          {
+            "regionTarget": "sa",
+            "host": "https://www.adidas.sa",
+            "patternURL": "/{lang}*",
+            "langs": [{ "lang": "en,ar" }]
+          },
+          {
+            "regionTarget": "eg",
+            "host": "https://www.adidas.com.eg",
+            "patternURL": "/{lang}*",
+            "langs": [{ "lang": "en,ar" }]
+          },
+          {
+            "regionTarget": "ma",
+            "host": "https://www.adidas.co.ma",
+            "patternURL": "/{lang}*",
+            "langs": [{ "lang": "ar,fr" }]
+          }
+        ]
+      }
+    }
+  ]
+}

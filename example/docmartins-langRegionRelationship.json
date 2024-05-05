@@ -1,0 +1,53 @@
+{
+  "langRegion": [
+    {
+      "scope": {
+        "include": "*"
+      },
+      "xHost": "https://www.drmartens.com",
+      "langRegionTarget": {
+        "patternURL": "/{region}/{lang}/*",
+        "alternates": [
+          {
+            "regionTarget": "*",
+            "patternURL": "/{lang}/{lang}/*",
+            "langs": [{ "lang": "da,fi,fr,nl,es,it" }]
+          },
+          {
+            "regionTarget": "ie,ee,gr,cz,ro,pl,nl,be,bg,pt,lu,lt,lv,hu,sl,sk",
+            "patternURL": "/eu/en_{lang}/*",
+            "langs": [{ "lang": "en" }]
+          },
+          {
+            "regionTarget": "us",
+            "langs": [{ "lang": "en" }]
+          },
+          {
+            "regionTarget": "ca",
+            "patternURL": "/{region}/{lang}_{region}/*",
+            "langs": [{ "lang": "en" }]
+          },
+          {
+            "regionTarget": "se",
+            "patternURL": "/{region}/{region}/*",
+            "langs": [{ "lang": "sv" }]
+          },
+          {
+            "regionTarget": "*",
+            "patternURL": "/dk/{lang}/*",
+            "langs": [{ "lang": "da" }]
+          },
+          {
+            "regionTarget": "dk",
+            "langs": [{ "lang": "da" }]
+          },
+          {
+            "regionTarget": "gb",
+            "patternURL": "/uk/en_gb/*",
+            "langs": [{ "lang": "en" }]
+          }
+        ]
+      }
+    }
+  ]
+}

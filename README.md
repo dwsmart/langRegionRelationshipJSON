@@ -284,6 +284,9 @@ In additon, `<script>` tags with `type="langRegionRelationship"` would be ignore
 ## Going Forward
 One of the issues with hreflang is that to date, it's only been supported by Google and  Yandex, and not by other search engines. And it's only for search engines. A proper spec could be developed, and if adopted used by other agents too, such as browsers, screen readers, to help users navigate a website in their preferred language, if the site offers it.
 
+## Couple of examples
+Some examples of how the langRegionRelationship object could be used in practice on real websites [can be found here](/example/README.md).
+
 
 ## Some other proposals
 - A robots.txt based on from Aleyda Solís' [post on linkedin](https://www.linkedin.com/posts/aleyda_so-gary-illyes-asked-for-alternatives-to-activity-7192287485190664192-wCU-)
