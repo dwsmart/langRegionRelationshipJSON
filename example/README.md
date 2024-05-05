@@ -142,5 +142,5 @@ Doc Martens has 38 `hreflang` tags on their website:
 <link rel="alternate" hreflang="nl" href="https://www.drmartens.com/nl/nl/" />
 ```
 
-This can be represented in the langRegionRelationship object like so: [docmartens-langRegionRelationship.json](docmartens-langRegionRelationship.json)
+This can be represented in the langRegionRelationship object like so: [drmartens-langRegionRelationship.json](drmartens-langRegionRelationship.json)
  and represents just **10** (8 `alternates:`, 1 `scope:`, 1 `xHost:`) rules.
